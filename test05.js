@@ -25,9 +25,16 @@ console.log(format(new Date(), 'yyyy-MM-dd'));
 -github push
     echo "# day02_0613" >> README.md 파일 만들기
     git init
-    git add README.md
+    git add .
     git commit -m "first commit"
-    git branch -M main
+    git branch -M master
     git remote add origin https://github.com/choiswan49/day02_0613.git
-    git push -u origin main
+    git config --list -> ESC :Q
+    git config --global user.name "choiswan49"
+    git config --global user.email "evaswan429@gmail.com"
+    git push -u origin master
+
+    git status : 상태확인
+    git add <file>...
+    git restore <file>...
 */
