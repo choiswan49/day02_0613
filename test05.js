@@ -35,8 +35,17 @@ console.log(format(new Date(), 'yyyy-MM-dd'));
     git push -u origin master
 
     git status : 상태확인
+
+    // 두번째부터는 다음 반복
+    git add .
+    git commit -m ""
+    git push -u origin master
+
     git add <file>...
     git restore <file>...
     personal access tokens > Tokens(classic)
     Generate new token  > repo 선택 > 하단 generate
+
+    // git download : 수정ㅇ해서 재업 불가
+    // git pull
 */
