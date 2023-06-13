@@ -37,4 +37,6 @@ console.log(format(new Date(), 'yyyy-MM-dd'));
     git status : 상태확인
     git add <file>...
     git restore <file>...
+    personal access tokens > Tokens(classic)
+    Generate new token  > repo 선택 > 하단 generate
 */
